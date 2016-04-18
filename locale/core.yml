@@ -461,8 +461,8 @@ core:
     edit: Edit
     email: Email
     load_more: Load More
-    log_in: Log In
-    log_out: Log Out
+    log_in: Kirjaudu sisään
+    log_out: Kirjaudu ulos
     mark_all_as_read: Mark All as Read
     next_page: Next Page
     notifications: Notifications

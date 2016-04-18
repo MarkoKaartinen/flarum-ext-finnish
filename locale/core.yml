@@ -83,7 +83,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Odota hetki...
 
     # These translations are used in the navigation bar.
     nav:
@@ -153,7 +153,7 @@ core:
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
+      close_tooltip: Sulje
       exit_full_screen_tooltip: Exit Full Screen
       full_screen_tooltip: Full Screen
       minimize_tooltip: Minimize
@@ -220,7 +220,7 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: Hallinta
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profile
@@ -486,11 +486,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: Ylläpitäjä
+    admins: Ylläpitäjät
+    guest: Vieras
+    guests: Vieraat
+    member: Jäsen
+    members: Jäsenet
+    mod: Valvoja
+    mods: Valvojat

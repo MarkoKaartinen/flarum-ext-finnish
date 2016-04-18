@@ -223,8 +223,8 @@ core:
       admin_button: Hallinta
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: Profiili
+      search_placeholder: Etsi keskustelualueelta
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -234,39 +234,39 @@ core:
       cannot_start_discussion_button: Can't Start Discussion
       mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: Päivitä
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: Tuoreimmat
+      newest_button: Uusimmat
+      oldest_button: Vanhimmat
+      relevance_button: Liittyvät
+      top_button: Parhaat
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Unohditko salasanasi?"
+      invalid_login_message: Kirjautumistietosi olivat virheelliset.
       password_placeholder: => core.ref.password
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      sign_up_text: "Eikö sinulla ole tiliä? <a>Rekisteröidy</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Tunnus tai sähköposti
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} vaihtoi otsikkoa"
+      empty_text: Ei ilmoituksia
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_tooltip: "{username} muokkasi {ago}"
+      number_tooltip: "Viesti #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -277,9 +277,9 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
+      now_link: Nyt
+      original_post_link: Alkuperäinen viesti
+      unread_text: "{count} lukematonta"
       viewing_text: "{index} of {count} post|{index} of {count} posts"
 
     # These translations are displayed between posts in the post stream.
@@ -294,44 +294,44 @@ core:
     search:
       all_discussions_button: 'Search all discussions for "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: Käyttäjät
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Tili
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      privacy_disclose_online_label: Näytä muille, että olen paikalla
+      privacy_heading: Yksityisyys
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Joko sinulla on tili? <a>Kirjaudu sisään</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Tervetuloa, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
-      bio_placeholder: Write something about yourself
+      avatar_remove_button: Poista
+      avatar_upload_button: Siirrä
+      avatar_upload_tooltip: Siirrä uusi avatar
+      bio_placeholder: Kirjoita jotain itsestäsi
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      joined_date_text: "Liittyi {ago}"
+      online_text: Paikalla
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: Viestit
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -345,18 +345,18 @@ core:
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
       resend_button: Resend Confirmation Email
-      sent_message: Sent
+      sent_message: Lähetetty
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Piilotettu
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[poistettu]"
 
     # These translations are displayed as error messages.
     error:
@@ -373,8 +373,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second} ja {third}"
+      two_text: "{first} ja {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -383,12 +383,12 @@ core:
     content:
       javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
       load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      loading_text: Ladataan...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Edellinen sivu
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -399,7 +399,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: Nollaa salasana
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -451,34 +451,34 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Kaikki keskustelut
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
+    change_email: Vaihda sähköposti
+    change_password: Vaihda salasana
+    confirm_password: Vahvista salasana
+    confirmation_email_sent: "Olemme lähettäneet vahvistussähköpostin osoitteeseen {email}. Jos se ei saavu pian, tarkista roskapostikansio."
+    delete: Poista
+    delete_forever: Poista pysyvästi
+    discussions: Keskustelut
+    edit: Muokkaa
+    email: Sähköposti
+    load_more: Lataa lisää
     log_in: Kirjaudu sisään
     log_out: Kirjaudu ulos
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    mark_all_as_read: Merkitse kaikki luetuksi
+    next_page: Seuraava sivu
+    notifications: Ilmoitukset
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
+    password: Salasana
+    reply: Vastaa                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Nollaa salasana
+    restore: Palauta
+    save_changes: Tallenna muutokset                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Asetukset
+    sign_up: Rekisteröidy
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Aloita keskustelu
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: Tunnus
+    write_a_reply: Kirjoita vastaus...
+    you: Sinä                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.

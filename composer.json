@@ -24,7 +24,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Finnish",
+            "title": "Suomi",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#FFFFFF",
@@ -34,7 +34,7 @@
         },
         "flarum-locale": {
             "code": "fi",
-            "title": "Finnish"
+            "title": "Suomi"
         }
     }
 }

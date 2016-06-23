@@ -64,8 +64,8 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
+    username: tunnus
+    password: salasana
     email: email
     title: title
     content: content

@@ -9,3 +9,5 @@ composer.phar
 # Operating systems
 .DS_Store
 Thumbs.db
+
+error.log

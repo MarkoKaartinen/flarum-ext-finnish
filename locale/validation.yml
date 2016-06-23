@@ -19,6 +19,7 @@ validation:
   different: "The :attribute and :other must be different."
   digits: "The :attribute must be :digits digits."
   digits_between: "The :attribute must be between :min and :max digits."
+  dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
   email: "The :attribute must be a valid email address."
   exists: "The selected :attribute is invalid."
@@ -70,6 +71,8 @@ validation:
     content: content
     name_singular: singular name
     name_plural: plural name
+    tag_count_primary: number of primary tags
+    tag_count_secondary: number of secondary tags
 
   custom:
     username:

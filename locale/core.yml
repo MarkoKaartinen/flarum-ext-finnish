@@ -444,31 +444,31 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Aktivoi tilisi
       body: |
-        Hey {username}!
-        Someone (hopefully you!) has signed up to {forum} with this email address.
-        If this was you, simply click the following link and your account will be activated:
+        Hei {username}!
+        Joku (toivottavasti sinä!) loi tunnuksen {forum} sivustolle tällä sähköpostiosoitteella.
+        Jos se olit sinä niin aktivoi tilisi klikkaamalla alla olevaa linkkiä:
         {url}
-        If you did not sign up, please ignore this email.
+        Jos et luonut tunnusta niin poista tämä viesti.
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Vahvista sähköpostiosoitteesi
       body: |
-        Hey {username}!
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
-        If this was you, simply click the following link and your email will be confirmed:
+        Hei {username}!
+        Joku (toivottavasti sinä!) vaihtoi sähköpostiosoitteen sivustolla {forum}.
+        Jos se olit sinä niin klikkaamalla alla olevaa linkkiä vahvistat sähköpostisosoitteesi:
         {url}
-        If this was not you, please ignore this email.
+        Jos et luonut tunnusta niin poista tämä viesti.
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
-        If this was you, click the following link to reset your password:
+        Hei {username}!
+        Joku (toivottavasti sinä!) unohti salasanan {forum} sivustolla.
+        Jos se olit sinä niin alla olevasta linkistä voit nollata salasanasi:
         {url}
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Jos et halua vaihtaa salasanaa tai se et ollut sinä niin poista tämä viesti ja mitään ei tapahdu.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

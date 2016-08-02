@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Lopeta Seuraaminen
+      unignore_button: Lopeta Huomiotta Jättäminen
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,25 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} kirjoitti"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Seuraa automaattisesti keskusteluja joihin vastaan
+      notify_new_post_label: Kun joku vastaa keskusteluun jota seuraan
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Ilmoita kaikista vastauksista.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Älä koskaan ilmoita. Piilota keskustelulistasta.
+      not_following_button: Et Seuraa
+    # @mentioned translated. not sure if this is some special string
+      not_following_text: "Ilmoita vain kun @mainitaan."
+      notify_alert_tooltip: Saa ilmoitus uusista viesteistä
+      notify_email_tooltip: Saa sähköposti uusista viesteistä
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +50,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Seuraa
+    following: Seuraat
+    ignoring: Jätät Huomiotta
